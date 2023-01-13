@@ -1,0 +1,30 @@
+
+img{
+    width: 100px;
+}
+
+a{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.fondoMenu{
+    background-color: rgba(123, 226, 114, 0.685);
+}
+
+p{
+    color: white;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width:576px){
+    .form-control{
+        width: 150px;
+    }
+}
