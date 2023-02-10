@@ -9,6 +9,8 @@ class Post extends Model
 {
     use HasFactory;
 
+    protected $guarded = ['id', 'created_at', 'updated_at'];
+
     //relacion 1/N inversa
     public function user(){
         return $this->belongsTo(User::class);
